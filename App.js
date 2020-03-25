@@ -26,6 +26,10 @@ export default function App() {
     setModalActive(false);
   }
 
+  function renderTaskList(list) {
+    return <TaskList list={list} />;
+  }
+
   return (
     <View style={styles.container}>
       <Modal
